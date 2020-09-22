@@ -1,2 +1,2 @@
-INSERT INTO `items` (`name`, `label`, `limit`, `rare`, `can_remove`) VALUES
-('fixtool', 'Cassetta degli Attrezzi', 5, 0, 1);
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`) VALUES
+('fixtool', 'Repair kit', 5, 0, 1);
