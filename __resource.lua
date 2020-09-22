@@ -1,8 +1,10 @@
-resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+fx_version 'bodacious'
 
-description 'ESX REPAIR - By Nikuez'
+game 'gta5'
 
-version '1.0.0'
+description 'ESX REPAIR - By Nikuez, small edited by esx balkan'
+
+version '1.0.1'
 
 server_scripts {
 	'@mysql-async/lib/MySQL.lua',
@@ -12,5 +14,3 @@ server_scripts {
 client_scripts {
 	'client.lua'
 }
-
-dependency 'es_extended'
