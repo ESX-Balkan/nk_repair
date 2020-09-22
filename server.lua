@@ -7,7 +7,7 @@ ESX.RegisterUsableItem('fixtool', function(source)
 	local xPlayer = ESX.GetPlayerFromId(_source)
 	local Attrezzatura = xPlayer.getInventoryItem('fixtool')
 	if Attrezzatura.count < 1 then
-		TriggerClientEvent('esx:showNotification', source, 'Non hai una ~b~Cassetta degli Attrezzi~s~!')
+		TriggerClientEvent('esx:showNotification', source, 'You do not have ~b~Repair Kit~s~!')
 	else
 		TriggerClientEvent('nk_repair:MenuRipara', source)
 	end
